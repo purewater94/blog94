@@ -1,0 +1,79 @@
+# baseURL = "https://example.com"
+title = "blog_test"
+# themesDir = "../.."
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[Params]
+  author = "purewater94"#: Name of the author
+  description = "updated later"#: Short description of the author
+  avatar = ""# Path of file containing the author avatar image
+  menu_item_separator = " - "# Separator between each menu item. HTML allowed (default: " - ")
+  favicon = ""# Absolute path of your favicon.ico file (default: "/favicon.ico")
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/purewater94"
+  [params.style]
+    # Default theme
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "#afbac4"
+    lightestColor = "#ffffff"
+    primaryColor = "#57cc8a"
+    # darkestColor = "#d35050"
+    # darkColor = "#212121"
+    # lightColor = "#f5e3e0"
+    # lightestColor = "#f5f5f5"
+    # primaryColor = "#ffffff"
+
+
+
+
+
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
+
+  # Red theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  lightColor = "#d6d6d6"
+  #  lightestColor = "#d3d3d3"
+  #  primaryColor = "#ffffff"
+
+  
+
+# baseURL = "http://example.org/"
+# languageCode = "en-us"
+# title = "My New Hugo Site"
